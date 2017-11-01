@@ -9,3 +9,20 @@ function doWhileLoop(arr){
 function maybeTrue() {
    return Math.random() >= 0.5;
 };
+function forLoop(arr)
+{
+  for(var i=0;i<25;i++)
+  {
+    
+  }
+}
+function whileLoop(num)
+{
+  while(num>=0)
+  {
+    num--;
+  }
+  if(num===0)
+  return "done";
+  
+}

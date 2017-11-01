@@ -17,8 +17,9 @@ function forLoop(arr)
 {
   for(var i=0;i<25;i++)
   {
-
+    arr.concat("I am ${i} strange loops.");
   }
+  return arr;
 };
 
 function whileLoop(num)

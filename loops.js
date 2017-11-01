@@ -29,5 +29,5 @@ function whileLoop(num)
     num--;
   }
   if(num==0)
-  return "done";
+  return 'done';
 }

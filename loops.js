@@ -23,7 +23,7 @@ function forLoop(arr)
     else {
       arr.concat("I am ${i} strange loops.");
     }
-    
+
   }
   return arr;
 };

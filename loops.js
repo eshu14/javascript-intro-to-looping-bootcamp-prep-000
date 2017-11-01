@@ -15,7 +15,7 @@ function maybeTrue()
 
 function forLoop(arr)
 {
-  for(var i=0;i<25;i++)
+  for(let i=0;i<25;i++)
   {
     arr.concat("I am ${i} strange loops.");
   }

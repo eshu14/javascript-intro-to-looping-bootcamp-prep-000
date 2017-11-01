@@ -1,10 +1,10 @@
 function doWhileLoop(arr)
 {
   var arr1;
-  while(arr.length >0)
+  do
   {
     arr1=arr.pop();
-  }
+  }while(arr.length >0 && maybeTrue());
   return arr1;
 };
 

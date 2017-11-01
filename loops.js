@@ -29,5 +29,4 @@ function whileLoop(num)
   }
   if(num===0)
   return "done";
-
 }

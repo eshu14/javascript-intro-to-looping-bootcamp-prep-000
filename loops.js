@@ -3,7 +3,7 @@ function doWhileLoop(arr)
   var arr1;
   do
   {
-    arr1=arr.pop();
+    arr.pop();
   }while(arr.length >0 && maybeTrue());
   return arr;
 };

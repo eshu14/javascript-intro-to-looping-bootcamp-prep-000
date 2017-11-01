@@ -1,10 +1,10 @@
 function doWhileLoop(arr){
   //var len=arr.length;
-do {
+while(arr.length >0 && maybeTrue()){
     arr.pop();
     }
   return arr;
-}while(arr.length >0 && maybeTrue());
+}
 function maybeTrue() {
    return Math.random() >= 0.5;
 }

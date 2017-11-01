@@ -21,7 +21,7 @@ function forLoop(arr)
       arr=arr.concat("I am 1 strange loop.");
     }
     else {
-      arr=arr.concat("I am ${i} strange loops.");
+      arr=arr.concat("I am \'${i}\' strange loops.");
     }
 
   }

@@ -1,5 +1,5 @@
 function doWhileLoop(arr){
-  var len=array.length;
+  var len=arr.length;
   while(arr.length >0 && maybeTrue()){
     arr.pop();
     }

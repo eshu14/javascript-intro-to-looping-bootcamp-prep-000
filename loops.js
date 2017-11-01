@@ -28,6 +28,6 @@ function whileLoop(num)
     console.log(num);
     num--;
   }
-  if(num===0)
+  if(num==0)
   return "done";
 }

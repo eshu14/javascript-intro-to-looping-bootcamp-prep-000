@@ -15,13 +15,14 @@ function maybeTrue()
 
 function forLoop(arr)
 {
+  var i;
   for(let i=0;i<25;i++)
   {
     if(i===1){
       arr=arr.concat("I am 1 strange loop.");
     }
     else {
-      arr=arr.concat("I am \'${i}\' strange loops.");
+      arr=arr.concat("I am ${i} strange loops.");
     }
 
   }

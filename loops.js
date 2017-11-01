@@ -31,7 +31,7 @@ function forLoop(arr)
 function whileLoop(num)
 {
   var str="done";
-  while(num>=0)
+  while(num>0)
   {
     console.log(num);
     num--;

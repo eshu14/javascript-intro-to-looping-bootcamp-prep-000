@@ -5,7 +5,7 @@ function doWhileLoop(arr)
   {
     arr1=arr.pop();
   }while(arr.length >0 && maybeTrue());
-  return arr1;
+  return arr;
 };
 
 function maybeTrue()

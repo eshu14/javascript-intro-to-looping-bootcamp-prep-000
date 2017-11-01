@@ -18,10 +18,10 @@ function forLoop(arr)
   for(let i=1;i<25;i++)
   {
     if(i===1){
-      arr.concat("I am 1 strange loop.");
+      arr=arr.concat("I am 1 strange loop.");
     }
     else {
-      arr.concat("I am ${i} strange loops.");
+      arr=arr.concat("I am ${i} strange loops.");
     }
 
   }

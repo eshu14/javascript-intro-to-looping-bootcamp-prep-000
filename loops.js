@@ -1,4 +1,5 @@
-function doWhileLoop(arr){
+function doWhileLoop(arr)
+{
   var arr1;
   while(arr.length >0)
   {
@@ -6,16 +7,20 @@ function doWhileLoop(arr){
   }
   return arr1;
 };
-function maybeTrue() {
+
+function maybeTrue()
+{
    return Math.random() >= 0.5;
 };
+
 function forLoop(arr)
 {
   for(var i=0;i<25;i++)
   {
-    
+
   }
-}
+};
+
 function whileLoop(num)
 {
   while(num>=0)
@@ -24,5 +29,5 @@ function whileLoop(num)
   }
   if(num===0)
   return "done";
-  
+
 }

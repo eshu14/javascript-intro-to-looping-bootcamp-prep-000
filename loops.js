@@ -17,7 +17,13 @@ function forLoop(arr)
 {
   for(let i=0;i<25;i++)
   {
-    arr.concat("I am ${i} strange loops.");
+    if(i===1){
+      arr.concat("I am 1 strange loop.");
+    }
+    else {
+      arr.concat("I am ${i} strange loops.");
+    }
+    
   }
   return arr;
 };

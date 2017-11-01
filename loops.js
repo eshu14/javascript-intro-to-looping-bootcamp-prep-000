@@ -30,11 +30,12 @@ function forLoop(arr)
 
 function whileLoop(num)
 {
+  var str="done";
   while(num>=0)
   {
     console.log(num);
     num--;
   }
   if(num==0)
-  return 'done';
+  return str;
 }
